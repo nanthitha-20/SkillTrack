@@ -1,6 +1,6 @@
-# SkillTrack-ML: Frontend Intern Skill Tracking & AI Forecasting Portal
+# SkillTrack: Frontend Intern Skill Tracking & AI Forecasting Portal
 
-SkillTrack-ML is a web-based portal and machine learning platform designed to monitor frontend engineering interns, evaluate coding progress, and provide predictive forecasts of future skill gaps and performance scores.
+SkillTrack is a web-based portal and machine learning platform designed to monitor frontend engineering interns, evaluate coding progress, and provide predictive forecasts of future skill gaps and performance scores.
 
 ---
 
