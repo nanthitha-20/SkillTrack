@@ -1,0 +1,13 @@
+{
+  "benchmark_timestamp": "2026-10-14T15:07:57",
+  "total_live_observations": 36,
+  "labeled_live_observations": 35,
+  "pending_future_label_observations": 1,
+  "observation_time_range": {
+    "earliest": "2026-09-01 17:41:32",
+    "latest": "2026-10-14T14:59:31"
+  },
+  "supervised_benchmark_available": true,
+  "evaluation_note": "Evaluating production model on 35 labeled live observations. (Only 2 samples had matching intern_performance records)",
+  "supervised_metrics": null
+}

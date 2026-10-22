@@ -1,0 +1,65 @@
+# ==========================================
+# SkillTrack-ML .gitignore
+# ==========================================
+
+# Virtual Environments
+.venv/
+.venv312/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Local Environment Variables & Credentials
+.env
+.env.*
+*.env
+*.pem
+*.key
+credentials.json
+client_secrets.json
+
+# Local SQLite Databases
+*.db
+*.sqlite
+*.sqlite3
+data/database/*.db
+data/database/*.sqlite
+
+# Uploaded Deliverables / User Documents
+data/deliverables/*.pdf
+data/deliverables/*
+!data/deliverables/.gitkeep
+
+# Manual Backup Folders & Code Backup Files
+backup_before_*/
+app/app_backup.py
+app/app_*_backup.py
+
+# Large Raw Datasets (excluding raw data >100MB while keeping code/notebooks)
+data/raw/
+legacy_oulad/data/
+*studentVle.csv
+
+# Duplicate / Temporary JMeter Test Plans
+testing/jmeter/* copy.jmx
+* copy.jmx
+
+# Logs & Temporary Test Outputs
+*.log
+testing/results/
+testing/logs/
+.ipynb_checkpoints/
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

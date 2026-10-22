@@ -1,0 +1,204 @@
+{
+  "benchmark_timestamp": "2026-10-14T15:07:46",
+  "dataset_path": "C:\\Users\\raghu\\Downloads\\SkillTrack-ML\\SkillTrack-ML\\data\\processed\\intern_ml_dataset.csv",
+  "dataset_rows": 4500,
+  "dataset_features": 43,
+  "classifier_model_path": "C:\\Users\\raghu\\Downloads\\SkillTrack-ML\\SkillTrack-ML\\models\\skill_gap_model.pkl",
+  "regressor_model_path": "C:\\Users\\raghu\\Downloads\\SkillTrack-ML\\SkillTrack-ML\\models\\performance_model.pkl",
+  "target_cls": "target_skill_gap",
+  "target_reg": "target_performance_score",
+  "evaluation_type": "historical_held_out",
+  "test_classification": {
+    "accuracy": 0.8015,
+    "macro_f1": 0.685,
+    "weighted_f1": 0.8107,
+    "balanced_accuracy": 0.7691,
+    "ni_recall": 0.8077,
+    "labels": [
+      "Developing",
+      "Needs Improvement",
+      "Strong"
+    ],
+    "per_class_precision": [
+      0.5944,
+      0.4118,
+      0.9302
+    ],
+    "per_class_recall": [
+      0.6446,
+      0.8077,
+      0.8551
+    ],
+    "per_class_f1": [
+      0.6185,
+      0.5455,
+      0.891
+    ],
+    "confusion_matrix": [
+      [
+        107,
+        28,
+        31
+      ],
+      [
+        5,
+        21,
+        0
+      ],
+      [
+        68,
+        2,
+        413
+      ]
+    ],
+    "n_samples": 675
+  },
+  "test_regression": {
+    "mae": 5.9743,
+    "rmse": 7.6347,
+    "r2": 0.6525,
+    "mean_target": 74.9832,
+    "mean_prediction": 75.5052,
+    "residual_std": 7.6169,
+    "n_samples": 675
+  },
+  "test_intern_count": 75,
+  "test_sample_count": 675,
+  "val_classification": {
+    "accuracy": 0.8119,
+    "macro_f1": 0.7297,
+    "weighted_f1": 0.8202,
+    "balanced_accuracy": 0.8027,
+    "ni_recall": 0.878,
+    "labels": [
+      "Developing",
+      "Needs Improvement",
+      "Strong"
+    ],
+    "per_class_precision": [
+      0.6216,
+      0.507,
+      0.9475
+    ],
+    "per_class_recall": [
+      0.6725,
+      0.878,
+      0.8575
+    ],
+    "per_class_f1": [
+      0.6461,
+      0.6429,
+      0.9002
+    ],
+    "confusion_matrix": [
+      [
+        115,
+        34,
+        22
+      ],
+      [
+        5,
+        36,
+        0
+      ],
+      [
+        65,
+        1,
+        397
+      ]
+    ],
+    "n_samples": 675
+  },
+  "val_regression": {
+    "mae": 6.0552,
+    "rmse": 7.5577,
+    "r2": 0.632,
+    "mean_target": 73.7845,
+    "mean_prediction": 73.5938,
+    "residual_std": 7.5553,
+    "n_samples": 675
+  },
+  "val_intern_count": 75,
+  "val_sample_count": 675,
+  "baseline_classification": {
+    "accuracy": 0.7156,
+    "macro_f1": 0.2781,
+    "weighted_f1": 0.5969,
+    "balanced_accuracy": 0.3333,
+    "ni_recall": 0.0,
+    "labels": [
+      "Developing",
+      "Needs Improvement",
+      "Strong"
+    ],
+    "per_class_precision": [
+      0.0,
+      0.0,
+      0.7156
+    ],
+    "per_class_recall": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "per_class_f1": [
+      0.0,
+      0.0,
+      0.8342
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        166
+      ],
+      [
+        0,
+        0,
+        26
+      ],
+      [
+        0,
+        0,
+        483
+      ]
+    ],
+    "n_samples": 675
+  },
+  "baseline_regression": {
+    "mae": 10.6157,
+    "rmse": 12.9673,
+    "r2": -0.0024,
+    "mean_target": 74.9832,
+    "mean_prediction": 74.3505,
+    "residual_std": 12.9518,
+    "n_samples": 675
+  },
+  "baseline_majority_class": "Strong",
+  "baseline_mean_target": 74.3505,
+  "temporal_leakage_check": {
+    "split_method": "intern-group split (no same intern in train+test)",
+    "train_test_overlap": 0,
+    "feature_week_<= target_week": true,
+    "future_labels_in_features": false,
+    "verified": true
+  },
+  "target_distribution": {
+    "Strong": 3188,
+    "Developing": 1073,
+    "Needs Improvement": 239
+  },
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "previously_reported_metrics": {
+    "val_cls_macro_f1": 0.7297,
+    "val_cls_ni_recall": 0.878,
+    "val_reg_rmse": 7.5577,
+    "val_reg_r2": 0.632,
+    "test_cls_accuracy": 0.8015,
+    "test_cls_macro_f1": 0.685,
+    "test_reg_rmse": 7.6347,
+    "test_reg_r2": 0.6525,
+    "source": "final_system_health_report.md"
+  }
+}

@@ -1,0 +1,54 @@
+feature,importance
+week,1.1971474330962133
+days_since_start,0.8902340958633467
+historical_skill_score_avg,0.7505221428428467
+historical_code_review_score_avg,0.6376573852605959
+historical_debugging_score_avg,0.4931509044416426
+cumulative_coding_attempts,0.4904026397021973
+historical_learning_hours_avg,0.471799813206665
+cumulative_execution_count,0.38928453661413626
+historical_runtime_error_rate_avg,0.3700551936990916
+historical_mcq_score_avg,0.358600612981771
+code_review_score,0.3145506702183337
+score_improvement,0.29266522839874565
+cumulative_guides_completed,0.29174619102570903
+learning_hours,0.2411409957689367
+skill_React,0.24010142880305485
+historical_compile_error_rate_avg,0.23576626126252329
+skill_score,0.2299808215035266
+engagement_rate,0.22715918820915226
+skill_API Integration,0.2158176836930058
+historical_average_time_minutes_avg,0.21020089933563027
+coding_score,0.1740606940549576
+role_Full Stack Development,0.17271857718052916
+historical_engagement_rate_avg,0.16852645085492746
+mcq_attempts,0.16658166431595647
+mcq_score,0.16374392816054117
+skill_Git,0.16333431218861758
+coding_attempts,0.15890963505279573
+role_Backend Development,0.15825396701418618
+skill_TypeScript,0.13979259584887435
+test_cases_passed,0.1392863898933502
+cumulative_tasks_completed,0.1370829930516456
+experience_level_Intermediate,0.12705505905276468
+previous_skill_score,0.1260550281956612
+historical_coding_score_avg,0.12515765249377606
+skill_CSS,0.12395078741034847
+cumulative_videos_completed,0.11760521296287423
+final_performance_score,0.11749339040305572
+role_Frontend Development,0.11324703786766392
+debugging_score,0.10267811803305009
+runtime_error_rate,0.10191456107121084
+test_cases_total,0.09397478804390164
+skill_HTML,0.09188504277843844
+cumulative_learning_hours,0.08402105473361537
+execution_count,0.08363756503949084
+average_time_minutes,0.07732486887115932
+guides_completed,0.07653213774171784
+videos_completed,0.07477232144149368
+experience_level_Advanced,0.07467212877020464
+experience_level_Beginner,0.06637984637611731
+skill_JavaScript,0.06383891428622138
+compile_error_rate,0.054224301610336166
+test_case_pass_rate,0.03388231775883086
+tasks_completed,0.02843038622832002

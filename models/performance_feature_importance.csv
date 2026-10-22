@@ -1,0 +1,54 @@
+feature,importance
+week,2.7531361304175
+historical_skill_score_avg,2.120347196802427
+cumulative_learning_hours,2.0626720094323368
+historical_compile_error_rate_avg,1.8521158896315573
+cumulative_tasks_completed,1.4402211799657265
+test_cases_passed,1.2728240260728558
+historical_debugging_score_avg,1.2605231594227724
+historical_mcq_score_avg,1.1309738030340066
+historical_engagement_rate_avg,1.1113431915976284
+test_case_pass_rate,1.1033366293401379
+cumulative_execution_count,0.8457595055904784
+historical_code_review_score_avg,0.7492879376925533
+skill_API Integration,0.6865379278754554
+test_cases_total,0.6727231601442936
+experience_level_Advanced,0.6476703372094935
+historical_average_time_minutes_avg,0.622958911332439
+days_since_start,0.5310151999070084
+historical_runtime_error_rate_avg,0.5189612426579623
+skill_React,0.49778452890797315
+runtime_error_rate,0.4368567670304981
+tasks_completed,0.42026354381421777
+skill_HTML,0.40231325674015705
+experience_level_Intermediate,0.39948231687360625
+skill_Git,0.3603232659570172
+debugging_score,0.2888744988735165
+historical_coding_score_avg,0.28712056954665255
+skill_score,0.28161938518684715
+cumulative_guides_completed,0.2776700933315697
+previous_skill_score,0.27179528076252246
+skill_TypeScript,0.26405891908032647
+learning_hours,0.2639809209071848
+cumulative_coding_attempts,0.25281748369457074
+experience_level_Beginner,0.2481880203377286
+compile_error_rate,0.23176087605778556
+role_Frontend Development,0.23110996598076727
+coding_attempts,0.19097570868173963
+role_Full Stack Development,0.16122508575524241
+guides_completed,0.14336165075566187
+mcq_attempts,0.142041272602274
+final_performance_score,0.11036064950307094
+execution_count,0.09288435129478284
+average_time_minutes,0.08813647924859914
+score_improvement,0.08690798600606575
+skill_JavaScript,0.07867787327589759
+role_Backend Development,0.06988488022815198
+code_review_score,0.06551193800808998
+historical_learning_hours_avg,0.04548438096225639
+skill_CSS,0.03861763761986371
+engagement_rate,0.037097879699065514
+mcq_score,0.024565369712674857
+videos_completed,0.016789928793647553
+cumulative_videos_completed,0.0022171689652237567
+coding_score,0.0020293484961854623

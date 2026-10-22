@@ -1,0 +1,15 @@
+{
+  "historical": {
+    "test_classification": {
+      "accuracy": 0.8015
+    }
+  },
+  "live": {
+    "total_live_observations": 10
+  },
+  "audit": {
+    "raw_dataset": {
+      "rows": 5000
+    }
+  }
+}

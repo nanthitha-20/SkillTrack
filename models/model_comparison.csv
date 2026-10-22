@@ -1,0 +1,7 @@
+model,task,validation_accuracy,validation_macro_f1,validation_needs_improvement_recall,validation_needs_improvement_precision,validation_needs_improvement_f1,validation_weighted_f1,validation_mae,validation_rmse,validation_r2
+Logistic Regression,classification,0.8119,0.7297,0.878,0.507,0.6429,0.8202,,,
+Random Forest Classifier,classification,0.8489,0.7783,0.6341,0.7879,0.7027,0.8508,,,
+Gradient Boosting Classifier,classification,0.8415,0.7653,0.6829,0.7778,0.7273,0.8354,,,
+Linear Regression (Ridge),regression,,,,,,,6.0552,7.5577,0.632
+Random Forest Regressor,regression,,,,,,,6.0837,7.6144,0.6265
+Gradient Boosting Regressor,regression,,,,,,,6.1499,7.6792,0.6201

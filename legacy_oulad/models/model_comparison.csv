@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1 Score
+Gradient Boosting,93.53,96.78,90.76,93.67
+Random Forest,93.4,97.24,90.06,93.51
+Decision Tree,93.05,95.75,90.88,93.25
+Logistic Regression,93.05,96.26,90.35,93.21
